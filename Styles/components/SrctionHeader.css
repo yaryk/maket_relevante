@@ -1,0 +1,31 @@
+.section-header.is-second {
+  text-align: center;
+}
+.section-header__title {
+  margin-top: 32px;
+  margin-bottom: 30px;
+}
+.section-header__title.second__title {
+  margin-bottom: 85px;
+}
+.section-header__text {
+  font-size: 36px;
+  color: white;
+  font-family: "UbuntuBold", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.section-header__text.second__text {
+  color: #737c8b;
+}
+.section-header__desc {
+  display: block;
+  font-size: 20px;
+  font-family: MyriadProRegular, sans-serif;
+  color: white;
+}
+.section-header__desc.second__desc {
+  text-transform: uppercase;
+  color: #737c8b;
+  margin-bottom: 0;
+}

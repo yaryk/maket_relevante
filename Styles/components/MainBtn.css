@@ -1,0 +1,31 @@
+.MainBtn {
+  padding: 12px 12px 12px 44px;
+  text-decoration: none;
+  border-radius: 5px;
+  background: #cd9cfe;
+  cursor: pointer;
+  border-bottom: 2px solid #6b4794;
+  color: white;
+  font-family: "UbuntuRegular", sans-serif;
+  font-size: 20px;
+  text-transform: lowercase;
+  position: relative;
+}
+.MainBtn.icon-centered:before {
+  margin-left: 348px;
+}
+.MainBtn:hover {
+  text-decoration: none;
+  color: white;
+}
+.MainBtn:before {
+  width: 25px;
+  height: 21px;
+  margin-left: 10px;
+  margin-right: 12px;
+  content: ' ';
+  display: block;
+  position: absolute;
+  background-image: url("/Images/linkedin-icon.svg");
+  background-repeat: no-repeat;
+}

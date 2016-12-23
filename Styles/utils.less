@@ -1,0 +1,21 @@
+.u-clearfix {
+	&:after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+}
+
+.u-vertical-aligner {
+	&:before {
+		content: '';
+		height: 100%;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	& > * {
+		vertical-align: middle;
+		display: inline-block;
+	}
+}

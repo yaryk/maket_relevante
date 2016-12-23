@@ -1,0 +1,15 @@
+.u-clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.u-vertical-aligner:before {
+  content: '';
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.u-vertical-aligner > * {
+  vertical-align: middle;
+  display: inline-block;
+}

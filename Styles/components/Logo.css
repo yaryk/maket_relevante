@@ -1,0 +1,8 @@
+.Logo {
+  display: inline-block;
+  font-size: 0;
+  width:400px;
+}
+.u-vertical-aligner .Logo-pic {
+  vertical-align: middle;
+}
